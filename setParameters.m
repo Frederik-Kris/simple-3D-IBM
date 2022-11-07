@@ -9,7 +9,7 @@ convCrit = 1e-10; % Convergence Criterion. 2-norm of change between time levels 
 NI  = 41;   % grid resolution in x-direction. The other directions (NJ and NK) are set automatically.
 NI_list = [11, 16, 21, 31, 41, 61, 81, 121, 161]; % List of grid resolutions to test if testAllCases is true.
 L_x = 1;    % domain size
-testAllCases = true; % Overrides caseType and bcType to test all 6 combos. Overrides NI to test increasing resolutions.
+testAllCases = false; % Overrides caseType and bcType to test all 6 combos. Overrides NI to test increasing resolutions.
 
 innerRadius = 0.2017; % Radii of the shells (cylinders or spheres)
 outerRadius = 0.4013;
